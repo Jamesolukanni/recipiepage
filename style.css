@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    background-color: hsl(30, 54%, 90%);
+    font-family: Outfit;
+}
+p {
+    color: hsl(30, 10%, 34%);
+}
+h2 {
+    font-size: 1.875rem;
+    font-family: Young Serif;
+    color: hsl(14, 45%, 36%);
+}
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 52%;
+    height: 1850px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.container-content {
+    width: 90%;
+    margin: 0 auto;
+    height: 1850px;
+}
+.image {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.header {
+    width: 100%;
+    margin-bottom: 15px;
+    height: 150px;
+}
+.header h1 {
+    color: hsl(24, 5%, 18%);
+    font-family: Young Serif;
+}
+.preparation-box {
+    padding-top: 5px;
+    background-color: hsl(332, 51%, 98%);
+    color: hsl(332, 51%, 32%);
+    border-radius: 10px;
+    height: 220px;
+}
+.preparation-box h3 {
+    margin: 35px 0 0 40px;
+}
+.preparation-box ul li {
+    margin: 15px 0 0 25px;
+}
+.preparation-box ul li p {
+    margin-left: 15px;
+}
+.ingridient-box {
+    color: hsl(14, 45%, 36%);
+    height: 320px;
+    border-bottom: solid 1px hsl(30, 18%, 87%);
+}
+.ingridient-box ul {
+    padding-left: 0px;
+}
+.ingridient-box ul li {
+    margin: 20px;
+}
+.ingridient-box ul li p {
+    margin-left: 15px;
+}
+.instructions-box {
+    height: 450px;
+    color: hsl(14, 45%, 36%);
+    border-bottom: solid 1px hsl(30, 18%, 87%);
+}
+.instructions-box ol {
+    padding-left: 25px;
+}
+.instructions-box ol li p {
+    margin-left: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table tr td {
+    padding: 10px 10px 10px 20px;
+}
+tr:nth-child(1), tr:nth-child(2), tr:nth-child(3) {
+    border-bottom: solid 1px hsl(30, 18%, 87%);
+}
+table tr td b {
+    color: hsl(14, 45%, 36%);
+}
+@media (max-width: 984px) {
+    .container {
+        width: 492px;
+        margin: 0 auto;
+        height: 2000px;
+    }
+    .container-content {
+        height: 100vh;
+    }
+    .instructions-box {
+        height: 500px;
+    }
+}
+@media (max-width: 804px) {
+    .container {
+        width: 720px;
+        margin: 0 auto;
+    }
+    .container-content {
+        margin: 0;
+        height: 100vh;
+    }
+}
+@media (max-width: 430px) {
+    body {
+        background-color: hsl(0, 0%, 100%);
+    }
+    .container {
+        margin: 0;
+        width: 100%;
+        height: 2000px;
+        padding-top: 0;
+        border-radius: 0;
+    }
+    .container-content {
+        margin: 0;
+        width: 100%;
+        height: 2025px;
+    }
+    .image {
+        border-radius: 0;
+    }
+    .container-info-content {
+        width: 380px;
+        margin: 0 auto;
+    }
+    .header {
+        width: 380px;
+        height: 200px;
+        margin-bottom: 0;
+    }
+    .preparation-box {
+        width: 380px;
+        height: 200px;
+        padding-top: 5px;
+        margin-top: 20px;
+    }
+    .ingridient-box {
+        width: 380px;
+    }
+    .ingridient-box ul li {
+        margin-left: 20px;
+    }
+    .container-info-content {
+        height: 1675px;
+    }
+    .instructions-box {
+        height: 600px;
+    }
+    .nutrition-box {
+        height: 320px;
+    }
+}
